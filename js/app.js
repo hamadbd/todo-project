@@ -10,6 +10,6 @@ if (gender=='male'||gender=='Male')
 alert('Welcome Mr '+ name+ ' to our website');
 else if (gender=='female'||gender=='Female')
 alert('Welcome Ms '+ name+ ' to our website');
-}
 else 
 alert('Welcome '+ name+' to our website');
+}

@@ -6,7 +6,7 @@ if (age <=0)
 alert('Wrong number, please insert age again ...');
 if (!( confirm('Do you want to skip the welcome message? ...')))
 {
-if (gender=='male')
+if (gender=='male'||gender=='Male')
 alert('Welcome Mr '+ name+ ' to our website');
 else if (gender=='female'||gender=='Female')
 alert('Welcome Ms '+ name+ ' to our website');
